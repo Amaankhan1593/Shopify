@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['cdn.shopify.com'], // ✅ Add allowed image domains here
+  },
 };
 
 export default nextConfig;
+
