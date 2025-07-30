@@ -1,5 +1,6 @@
 import React from "react";
-import FeatureImages from '@/components/FeatureImages';
+import FeatureImages from "@/components/FeatureImages";
+import RotatedRect from "./RotatedRect";
 
 const Feature = () => {
   return (
@@ -100,24 +101,26 @@ const Feature = () => {
       <div className="mt-10 h-0.5 bg-gray-300 rounded-full"></div>
 
       {/*  */}
-      
-    <div className="flex flex-col md:flex-row items-start justify-between px-8 py-10 gap-10">
+
+      <div className="flex flex-col ml-10 md:flex-row items-start justify-between px-8 py-10 gap-10">
         {/* Left Text */}
-        <div className="md:w-1/2">
-            <h2 className="font-bold text-3xl">Presets</h2>
-            <p className="mt-4 font-bold text-lg text-gray-600">
+        <div className="md:w-1/2 py-10">
+          <div className="-mb-10">
+            <RotatedRect />
+          </div>
+          <h2 className="font-bold  text-3xl">Presets</h2>
+          <p className="font-bold text-lg text-gray-600">
             Symmetry comes with 4 ready-made designs for your store,
             <br />
             including Duke
-            </p>
+          </p>
         </div>
 
         {/* Right Images */}
         <div className="md:w-1/2">
-            <FeatureImages />
+          <FeatureImages />
         </div>
-        </div>
-        
+      </div>
     </>
   );
 };

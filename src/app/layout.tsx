@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ThemeCard from "@/components/ThemeCard";
 import Feature from "@/components/Feature";
+import { CarouselDemo } from "@/components/CarouselDemo";
+import Reviews from "@/components/Reviews";
+import SportsThemes from "@/components/SportsThemes";
 // import FeatureImages from "@/components/FeatureImages";
 
 const geistSans = Geist({
@@ -37,6 +40,9 @@ export default function RootLayout({
         <ThemeCard/>
         <Feature/>
         {/* <FeatureImages/> */}
+        <CarouselDemo/>
+        <Reviews/>
+        <SportsThemes/>
          <Footer/>
       </body>
     </html>
