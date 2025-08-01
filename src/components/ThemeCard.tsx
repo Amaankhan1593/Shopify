@@ -21,39 +21,42 @@ const ThemeCard = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div>
-         <Image
-          src="https://cdn.shopify.com/theme-store/qn1prb4hlbslj97uu2iesbjgtjfg.jpg"
-          width={2}
-          height={2}
-          alt="Theme 1"
-          className="w-full h-auto object-cover rounded-3xl shadow"
-        />
+         <div className="relative w-full h-76 rounded-3xl shadow overflow-hidden">
+          <Image
+            src="https://cdn.shopify.com/theme-store/qn1prb4hlbslj97uu2iesbjgtjfg.jpg"
+            fill
+            alt="Theme 1"
+            className="object-cover"
+          />
+        </div>
         <h2 className='font-bold mt-4 ml-2 text-lg'>Top Selling Theme</h2>
         <p className='font-semibold mt-2 ml-2 text-lg text-gray-500'>
             Unrivalled selection of highly customizable drag-and-drop sections and features designed by one of the most experienced Theme Store Partners
         </p>
         </div>
         <div>
-        <Image
-          src="https://cdn.shopify.com/theme-store/jtxdjyz4bw63fwt0hknpbeolg2yy.jpg"
-          width={2}
-          height={2}
-          alt="Theme 2"
-          className="w-full h-auto object-cover rounded-3xl shadow"
-        />
+         <div className="relative w-full h-76 rounded-3xl shadow overflow-hidden">
+          <Image
+            src="https://cdn.shopify.com/theme-store/jtxdjyz4bw63fwt0hknpbeolg2yy.jpg"
+            fill
+            alt="Theme 1"
+            className="object-cover"
+          />
+        </div>
         <h2 className='font-bold mt-4 ml-2 text-lg'>Make An Impact - Drive Sales</h2>
         <p className='font-semibold mt-2 ml-2 text-lg text-gray-500'>
            Developed by leading Shopify Theme Partners with over 11 years of experience in building high-end Premium themes for all types of merchants.      
         </p>
         </div>
         <div>
-        <Image
-          src="https://cdn.shopify.com/theme-store/3fzpncknc20y7wisqxj45bsgpp38.jpg"
-          width={2}
-          height={2}
-          alt="Theme 3"
-          className="w-full h-auto object-cover rounded-3xl shadow"
-        />
+         <div className="relative w-full h-76 rounded-3xl shadow overflow-hidden">
+          <Image
+            src="https://cdn.shopify.com/theme-store/3fzpncknc20y7wisqxj45bsgpp38.jpg"
+            fill
+            alt="Theme 1"
+            className="object-cover"
+          />
+        </div>
         <h2 className='font-bold mt-4 ml-2 text-lg'>Help Buyers Convert</h2>
         <p className='font-semibold mt-2 ml-2 text-lg text-gray-500'>
            Powerful filters to drive conversions. Perfect for all fashion stores, but just as great for any store wanting a professional web presence!

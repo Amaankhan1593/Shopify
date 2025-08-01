@@ -39,14 +39,14 @@ export function CarouselDemo() {
               className="p-2 basis-1/2 md:basis-1/3 lg:basis-1/4"
             >
               <div className="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <Image
-                  src={src}
-                  width={2}
-                  height={2}
-                  alt={`Slide ${index + 1}`}
-                  className="w-full h-[240px] object-cover"
-                />
-              </div>
+              <Image
+                src={src}
+                width={800} // Use a proper width, like 800
+                height={240} // Should match your class height [240px]
+                alt={`Slide ${index + 1}`}
+                className="w-full h-[240px] object-cover"
+              />
+            </div>
             </CarouselItem>
           ))}
         </CarouselContent>

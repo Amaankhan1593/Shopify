@@ -67,12 +67,12 @@ const SportsThemes = () => {
             className="inline-block min-w-[270px] max-w-[300px] border rounded-lg p-2"
           >
             <Image
-              src={theme.img}
-              width={2}
-              height={2}
-              alt={theme.name}
-              className="rounded w-full h-80 object-cover"
-            />
+            src={theme.img}
+            width={800} // or adjust based on your layout
+            height={320} // 80 * 4 = 320px
+            alt={theme.name}
+            className="rounded w-full h-80 object-cover"
+          />
             <h3 className="text-gray-900 font-medium mt-2">{theme.name}</h3>
             <p className="text-gray-600">{theme.price}</p>
           </div>

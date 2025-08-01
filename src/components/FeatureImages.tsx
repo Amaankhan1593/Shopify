@@ -18,12 +18,13 @@ const FeatureImages = () => {
             className="overflow-hidden rounded-xl bg-gray-100 w-[300px] h-[400px]"
           >
             <Image
-              src={src}
-              width={2}
-              height={2}
-              alt={`Feature ${index + 1}`}
-              className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105 transform-gpu"
-            />
+            src={src}
+            width={800} // or actual image width
+            height={800} // or actual image height
+            alt={`Feature ${index + 1}`}
+            className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105 transform-gpu"
+          />
+
           </div>
         ))}
       </div>
