@@ -180,9 +180,18 @@ const Footer = () => {
       <Link href={"/"} className="hover:underline">Sitemap</Link>
     </div>
 
+
     <div className="w-full flex justify-end -mt-9">
-  <div className="relative inline-block text-left">
-    <button className="inline-flex justify-center items-center   border-gray-600 text-white px-4 py-2 text-sm font-medium rounded-md hover:bg-gray-800">
+  <div className="relative inline-flex items-center gap-2 text-left">
+    {/* Globe icon on the left */}
+    <img
+      src="https://img.icons8.com/ios-filled/24/ffffff/globe--v1.png"
+      alt="globe"
+      className="w-10 h-10 mr-2"
+    />
+
+    {/* Button */}
+    <button className="inline-flex items-center  border-gray-600 text-white px-4 py-2 text-base font-medium rounded-md hover:bg-gray-800">
       English
       <svg
         className="ml-2 h-4 w-4"
@@ -191,11 +200,17 @@ const Footer = () => {
         viewBox="0 0 24 24"
         stroke="currentColor"
       >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M19 9l-7 7-7-7"
+        />
       </svg>
     </button>
   </div>
 </div>
+
 
     </footer>
   );

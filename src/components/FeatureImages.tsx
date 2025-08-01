@@ -9,12 +9,12 @@ const FeatureImages = () => {
   ];
 
   return (
-    <div className="w-full overflow-x-hidden">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6 max-w-screen-xl mx-auto">
+       <div className="w-full overflow-x-hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 max-w-screen-xl mx-auto">
         {images.map((src, index) => (
           <div
             key={index}
-            className="overflow-hidden rounded-xl aspect-[4/4] bg-gray-100 w-full"
+            className="overflow-hidden rounded-xl bg-gray-100 w-[300px] h-[400px]"
           >
             <img
               src={src}
