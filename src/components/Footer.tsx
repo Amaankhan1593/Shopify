@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-black text-white px-6 py-10 mt-20">
@@ -59,7 +60,7 @@ const Footer = () => {
       </div>
 
       <div className="ml-14 mt-15">
-        <img
+        <Image
           width="48"
           height="48"
           src="https://img.icons8.com/ios-filled/96/ffffff/shopify.png"
@@ -184,8 +185,10 @@ const Footer = () => {
     <div className="w-full flex justify-end -mt-9">
   <div className="relative inline-flex items-center gap-2 text-left">
     {/* Globe icon on the left */}
-    <img
+    <Image
       src="https://img.icons8.com/ios-filled/24/ffffff/globe--v1.png"
+      width={2}
+      height={2}
       alt="globe"
       className="w-10 h-10 mr-2"
     />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const themes = [
   {
@@ -65,8 +66,10 @@ const SportsThemes = () => {
             key={index}
             className="inline-block min-w-[270px] max-w-[300px] border rounded-lg p-2"
           >
-            <img
+            <Image
               src={theme.img}
+              width={2}
+              height={2}
               alt={theme.name}
               className="rounded w-full h-80 object-cover"
             />

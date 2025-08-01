@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const FeatureImages = () => {
   const images = [
@@ -16,8 +17,10 @@ const FeatureImages = () => {
             key={index}
             className="overflow-hidden rounded-xl bg-gray-100 w-[300px] h-[400px]"
           >
-            <img
+            <Image
               src={src}
+              width={2}
+              height={2}
               alt={`Feature ${index + 1}`}
               className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105 transform-gpu"
             />

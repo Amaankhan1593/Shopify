@@ -77,7 +77,7 @@ export default function Home() {
               </div>
             </div>
 
-            <img
+            <Image
               src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
               alt="Search Icon"
               width={30}
@@ -130,25 +130,25 @@ export default function Home() {
       <div className="flex items-center justify-between bg-black text-white text-sm px-6 py-2">
         {/* Left: Social Icons */}
         <div className="flex gap-4 items-center">
-          <img
+          <Image
             width="20"
             height="20"
             src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
             alt="facebook-new"
           />
-          <img
+          <Image
             width="20"
             height="20"
             src="https://img.icons8.com/ios/50/ffffff/youtube-play--v1.png"
             alt="youtube-play--v1"
           />
-          <img
+          <Image
             width="20"
             height="20"
             src="https://img.icons8.com/windows/32/ffffff/instagram-new.png"
             alt="instagram-new"
           />
-          <img
+          <Image
             width="20"
             height="20"
             src="https://img.icons8.com/ios/50/ffffff/twitterx--v2.png"
@@ -233,7 +233,7 @@ export default function Home() {
 
           <div className="flex items-center gap-4">
             {/* User Icon */}
-            <img
+            <Image
               width="24"
               height="24"
               src="https://img.icons8.com/material-outlined/24/ffffff/user--v1.png"
@@ -242,7 +242,7 @@ export default function Home() {
             />
 
             {/* Search Icon */}
-            <img
+            <Image
               src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
               alt="Search Icon"
               width={30}
@@ -251,7 +251,7 @@ export default function Home() {
             />
 
             {/* Cart Icon */}
-            <img
+            <Image
               width="30"
               height="30"
               src="https://img.icons8.com/pulsar-line/50/shopping-cart.png"

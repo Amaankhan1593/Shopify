@@ -22,7 +22,7 @@ const Reviews = () => {
                 </h2>
               </div>
               <p className="leading-relaxed text-base text-gray-500 font-semibold">
-                We've run eCommerce for 20+ years, and this is the first theme
+                We run eCommerce for 20+ years, and this is the first theme
                 that truly delivered: fast, clean, flexible, smart layout, great
                 support. It works perfectly for both our niche shops – Halloween
                 and Christmas – without limits. Custom add-ons were easy.
@@ -81,7 +81,7 @@ const Reviews = () => {
               <p className="leading-relaxed text-base text-gray-500 font-semibold">
                 Hi Adinkra Expo! Thank you for your feedback and we appreciate
                 you taking the time to follow up so we could take a deeper look.
-                We're glad we were ultimately able to pinpoint the issue and
+                We re glad we were ultimately able to pinpoint the issue and
                 provide clarity, especially since it wasn’t theme-related.
                 Wishing you every success from all the Clean Canvas team!
               </p>
@@ -184,7 +184,7 @@ const Reviews = () => {
               <p className="leading-relaxed text-base text-gray-500 font-semibold">
                 Hi Adinkra Expo! Thank you for your feedback and we appreciate
                 you taking the time to follow up so we could take a deeper look.
-                We're glad we were ultimately able to pinpoint the issue and
+                We re glad we were ultimately able to pinpoint the issue and
                 provide clarity, especially since it wasn’t theme-related.
                 Wishing you every success from all the Clean Canvas team!
               </p>

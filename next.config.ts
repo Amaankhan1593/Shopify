@@ -2,7 +2,7 @@ import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['cdn.shopify.com'], // ✅ Add allowed image domains here
+    domains: ['cdn.shopify.com', 'img.icons8.com'], // ✅ Add allowed image domains here
   },
 };
 
